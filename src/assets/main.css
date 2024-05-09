@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover {
+  @apply cursor-pointer px-2 py-1 transition-all duration-200 hover:bg-slate-300;
+}
+
+.p-tabview {
+  /* Стили для контейнера TabView */
+  /* border: 1px solid #e60c0c; */
+  /* border-radius: 4px; */
+}
+
+.p-tabview .p-tabview-nav {
+  /* Стили для навигационной панели TabView */
+  @apply /* background-color: #f5f5f5;
+  */ /* border-bottom: 1px
+  solid #ccc; */ /* gap: 20px;
+  */ /* padding: 10px;
+  */ gap-5 border-b bg-gray-50;
+}
+
+.p-tabview-panels {
+  @apply border-t border-t-slate-300;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  /* Стили для ссылок вкладок */
+  color: #333;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:hover {
+  /* Стили для ссылок вкладок при наведении */
+  background-color: #e0e0e0;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  /* Стили для активной вкладки */
+  @apply /* 
+  background-color: #007bff; */ /*
+  color: #fff; */ bg-slate-300;
+}
+
+.p-tabview .p-tabview-panels {
+  /* Стили для контейнера содержимого вкладок */
+  padding: 16px;
+  /* border: 1px solid #ccc; */
+  /* border-top: none; */
+}
