@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s,b as c}from"./index-BCrI-PbS.js";const n={},o=c("h1",null,"SinglePedestalPage.vue",-1),a=[o];function _(l,r){return s(),t("div",null,a)}const i=e(n,[["render",_]]);export{i as default};

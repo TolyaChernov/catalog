@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s,b as c}from"./index-BCrI-PbS.js";const n={},o=c("h1",null,"NightstandPage.vue",-1),a=[o];function _(r,d){return s(),t("div",null,a)}const l=e(n,[["render",_]]);export{l as default};
