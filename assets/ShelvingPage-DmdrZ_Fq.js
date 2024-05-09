@@ -1,0 +1,1 @@
+import{_ as e,c,o as n,b as o}from"./index-BCrI-PbS.js";const t={},s=o("h1",null,"ShelvingPage.vue",-1),a=[s];function _(r,l){return n(),c("div",null,a)}const d=e(t,[["render",_]]);export{d as default};
