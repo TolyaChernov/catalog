@@ -1,1 +1,0 @@
-import{_ as e,c as n,o,b as t}from"./index-C1KTDjNz.js";const c={},s=t("h1",null,"InventoryPage.vue",-1),r=[s];function a(_,l){return o(),n("div",null,r)}const f=e(c,[["render",a]]);export{f as default};
